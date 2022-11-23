@@ -2,11 +2,11 @@
 
 ## Projekt 1 - Nao spricht über Schule (Alexander Resh)
 - Gesicht erkennen, Gesicht bekannt - dann begrüßen, falls nicht dann nach Namen Fragen und
-  abspeichern. Immwer wieder mit Namen ansprechen.
+  abspeichern (erstmal nur begrüßen und nicht eispeichern). Immwer wieder mit Namen ansprechen.
 - Fragen warum der Besucher beim Tadeot ist.
 - Nao könnte das Alter des Besuchers schätzen.
 - Was über die Schule erzählen
-- Nach Interesse zu Fachbereich fragen. HIF - HITM - EL - MED
+- Nach Interesse zu Fachbereich fragen. HIF - HITM - EL - MED (Worterkennung ist beim TDOT  generell schwierig, da Negengeräusche stark auftreten. Und die erkennung runterstellen ist auch nicht sonderlich hilfreich)
 - Je nach Fachbereich Antworten geben.
 - Besucher verabschieden, viel Spass wünschen etc.
 
