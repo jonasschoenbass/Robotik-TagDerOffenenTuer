@@ -1,0 +1,18 @@
+topic: ~HelloWorld()
+language: enu
+
+
+
+u:([Hello Hi Hey Hallo]) Hello should I tell you something about my school.
+
+u:^private([Yes please]) ok about which Floor of this School should I talk about. There are the basement, ground floor, First and Secondfloor.
+
+u:^private(basement) basement
+
+u:^private([ground grondfloor normal level ]) groundfloor
+
+u:^private([Secondfloor Second  ]) Secondfloor
+
+u:^private([Firstfloor First Erster]) Firstfloor
+ 
+
