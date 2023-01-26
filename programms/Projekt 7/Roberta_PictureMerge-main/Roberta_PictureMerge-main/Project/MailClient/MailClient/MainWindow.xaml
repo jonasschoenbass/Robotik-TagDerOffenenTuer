@@ -1,0 +1,17 @@
+﻿<Window x:Class="MailClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MailClient"
+        mc:Ignorable="d" Background="#fff"
+        Title="MailClient" Height="450" Width="800" ResizeMode="NoResize">
+    <Canvas>
+        <Border BorderThickness="2px" BorderBrush="#d3d3d3" Canvas.Left="468" HorizontalAlignment="Left" VerticalAlignment="Center" >
+            <Image x:Name="PictureDisplay"  Width="320" Height="238" Canvas.Left="478" Canvas.Top="1"/>
+        </Border>
+        <TextBlock FontSize="13"  Text="Starting..." Foreground="#4AF626" FontFamily="consolas" x:Name="Console" Width="316" Height="216" Background="#000" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Foreground="Green" Padding="0,7,0,0" TextAlignment="Center" FontWeight="SemiBold" Text="1.png" FontFamily="consolas" x:Name="fileName" Background="#d3d3d3" Width="324" Height="30" Canvas.Left="468" Canvas.Top="242" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="EmailBox" KeyUp="Email_TextBox_KeyPress" BorderBrush="#333333" Background="#262626" Height="30" Width="316" Canvas.Top="214" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" Foreground="#8c8c8c" Text="Enter Email Here..."/>
+    </Canvas>
+</Window>
