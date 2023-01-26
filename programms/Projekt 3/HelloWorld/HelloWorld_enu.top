@@ -7,12 +7,11 @@ u:([Hello Hi Hey Hallo]) Hello should I tell you something about my school.
 
 u:^private([Yes please]) ok about which Floor of this School should I talk about. There are the basement, ground floor, First and Secondfloor.
 
-u:^private(basement) basement
+u:^private(basement) In the basement are the workshops, this is particularly interesting if you choose electrical engineering or medical technology.
 
-u:^private([ground grondfloor normal level ]) groundfloor
+u:^private([ground grondfloor normal level ]) On the ground floor is the staff room, the secretariat and the buffet. Behind the buffet you can also get to the gyms and the sports field. Right next to the entrance is the school caretaker's office and there are also the chemistry and physics rooms.
 
-u:^private([Secondfloor Second  ]) Secondfloor
+u:^private([Secondfloor Second  ]) Unless you're a computer scientist, your classroom will likely be on the second floor.
 
-u:^private([Firstfloor First Erster]) Firstfloor
- 
+u:^private([Firstfloor First Erster]) The first floor is particularly interesting if you want to do computer science, because there are the programming rooms and also the classrooms for computer scientists.
 
